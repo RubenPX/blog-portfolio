@@ -5,3 +5,41 @@ html, body {
     margin: 0;
 }
 
+/** PAGE HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+
+    background-color: #aaa;
+    height: 70px;
+}
+
+/** Image Logo */
+header > img {
+    height: 70px;
+}
+
+/** Title */
+header > h1 {
+    margin: 0;
+}
+
+/** Menu */
+header > ul {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+
+header > ul > li {
+    padding: 0 10px;
+    border-right: 1px solid black;
+}
+
+header > ul > li:last-child {
+    border: none;
+}
