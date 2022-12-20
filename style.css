@@ -1,1 +1,7 @@
 /** Created by Ruben Mortagua */
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
