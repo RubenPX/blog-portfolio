@@ -1,6 +1,9 @@
-/** Created by Ruben Mortagua */
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
 
+/** Created by Ruben Mortagua */
 html, body {
+    font-family: 'Noto Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
