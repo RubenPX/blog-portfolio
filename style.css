@@ -104,7 +104,7 @@ main.post > header.post-header > h1 {
     transform: translateX(-50%);
     z-index: 2;
     color: #000;
-    text-shadow: -1px -1px 0 #aaa, 1px -1px 0 #aaa, -1px 1px 0 #aaa, 1px 1px 0 #aaa;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
     width: 100%;
     text-align: center;
 }
