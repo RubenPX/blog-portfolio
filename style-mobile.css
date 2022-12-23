@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+
+    header.page-header {
+        height: 60px;
+        display: block;
+    }
+
+    header.page-header > img {
+        height: 50px;
+        float: left;
+        margin-top: 5px;
+    }
+
+    header.page-header > h1 {
+        font-size: medium;
+        margin-top: 7px;
+        float: left;
+        width: calc(100% - 60px);
+        text-align: center;
+    }
+
+    header.page-header > ul {
+        width: calc(100% - 60px);
+        justify-content: space-around;
+    }
+
+    header.page-header > ul > li  {
+        border: none;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    aside.menu > ul {
+        display: block;
+    }
+
+    aside.menu > ul > li {
+        text-align: center;
+    }
+
+    main.post {
+        margin-bottom: 0px;
+    }
+
+    .post > .post-content {
+        margin-top: 0;
+    }
+
+    main.post > header.post-header > img {
+        height: 30vh;
+    }
+
+    main.post > header.post-header > h1 {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    main.post > header.post-header::after {
+        background: transparent;
+    }
+
+    .post > .post-content {
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+
+    
+}
