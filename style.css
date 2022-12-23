@@ -7,39 +7,41 @@ html, body {
 
 /** PAGE HEADER */
 
-header {
+header.page-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     vertical-align: middle;
     align-items: center;
 
-    background-color: #aaa;
+    background-color: #0002;
     height: 70px;
 }
 
-/** Image Logo */
-header > img {
+/** Page Logo */
+header.page-header > img {
     height: 70px;
+    aspect-ratio: 1 / 1;
 }
 
 /** Title */
-header > h1 {
+header.page-header > h1 {
     margin: 0;
 }
 
-/** Menu */
-header > ul {
+/** page */
+header.page-header > ul {
     display: flex;
     list-style: none;
     margin-right: 15px;
+    padding-left: 0;
 }
 
-header > ul > li {
+header.page-header > ul > li {
     padding: 0 10px;
     border-right: 1px solid black;
 }
 
-header > ul > li:last-child {
+header.page-header > ul > li:last-child {
     border: none;
 }
