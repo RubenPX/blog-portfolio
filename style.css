@@ -185,3 +185,13 @@ main.post > header.post-header::after {
 .cards > .card > p {
     text-align: justify;
 }
+
+/** footer */
+
+footer {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
