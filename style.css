@@ -164,3 +164,24 @@ main.post > header.post-header::after {
     margin-bottom: 40px;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
 }
+
+/** cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px -20px;
+}
+
+.cards > .card {
+    margin: 0 15px;
+}
+
+.cards > .card > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.cards > .card > p {
+    text-align: justify;
+}
