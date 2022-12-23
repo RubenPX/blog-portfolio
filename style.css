@@ -48,3 +48,26 @@ header.page-header > ul > li {
 header.page-header > ul > li:last-child {
     border: none;
 }
+
+/** Menu */
+
+aside.menu {
+    background-color: #0002;
+}
+
+aside.menu > ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 50px;
+    margin: 0;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+aside.menu > ul > li.active {
+    text-decoration: underline;
+}
+
+aside.menu > ul a {
+    text-decoration: none;
+}
